@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
   const profilePicUrl = "/images/Selfie.jpg";
 
   return (
-    <div id="about" className="min-h-screen w-full grid grid-cols-1 md:grid-cols-2 items-start p-4 md:p-20 gap-6 bg-black text-white dark:text-white">
+    <div id="about" className="min-h-screen w-full grid grid-cols-1 md:grid-cols-2 items-start p-4 md:p-20 gap-6 text-white dark:text-white">
       {/* Left Side - Text Content */}
       <div className="col-span-1 space-y-6">
         <h2 className="text-xl sm:text-2xl md:text-4xl mb-4 text-white dark:text-white max-w-4xl rounded-lg border-4 md:border-8 border-indigo-500/100 text-center bg-indigo-500 font-bold">
