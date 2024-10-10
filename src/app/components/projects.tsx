@@ -30,7 +30,7 @@ export function CardDemo() {
   ];
 
   return (
-    <div id="projects">
+    <div id="projects" className="bg-black">
       <div className="flex justify-center">
         <h2 className="text-lg md:text-4xl mb-4 pb-3 pl-3 text-white dark:text-white max-w-4xl rounded-lg border-8 border-indigo-500/100 text-center bg-indigo-500 font-bold">
           PROJECTS
