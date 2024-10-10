@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         <h2 className="text-xl sm:text-2xl md:text-4xl mb-4 text-white dark:text-white max-w-4xl rounded-lg border-4 md:border-8 border-indigo-500/100 text-center bg-indigo-500 font-bold">
           <SparklesText text="ABOUT ME" />
         </h2>
-        <p className="text-sm md:text-lg text-black">{aboutMeContent}</p>
+        <p className="text-sm md:text-lg text-black dark:text-white">{aboutMeContent}</p>
         <ul
           className="list-disc text-left mb-4 ml-4 text-indigo-500 animate__animated animate__slideInRight text-sm md:text-base"
         >
