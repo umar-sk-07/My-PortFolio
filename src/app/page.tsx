@@ -1,5 +1,3 @@
-"use client"
-
 import { TimelineDemo } from "./components/timeline";
 import { BackgroundBeamsWithCollisionDemo } from "./components/background-beams";
 import { FloatingNavDemo } from "./components/navbar";
@@ -9,13 +7,8 @@ import Hero from "./components/hero";
 import { CardDemo } from "./components/projects";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
-import { useEffect } from 'react';
 
 export default function Home() {
-  useEffect(() => {
-    // Add the 'dark' class to the <html> element to enforce dark mode globally
-    document.documentElement.classList.add('dark');
-  }, []);
   return (
     <div className=" text-black">
       {/* Floating Navbar */}
