@@ -12,12 +12,14 @@ export default function Home() {
   return (
     <div className="bg-black sm:bg-black md:bg-black lg:bg-black text-white">
       {/* Floating Navbar */}
-      <div>
+      <div className="bg-black sm:bg-black md:bg-black lg:bg-black text-white">
         <FloatingNavDemo />
       </div>
 
       {/* Background Effects */}
+      <div className="bg-black sm:bg-black md:bg-black lg:bg-black text-white">
       <BackgroundBeamsWithCollisionDemo />
+      </div>
 
       {/* Hero Section */}
       <section id="about-section">
@@ -32,12 +34,12 @@ export default function Home() {
       </div>
 
       {/* Grid layout for IconCloud and Progress bars */}
-      <section id="skills-section" className="dark:bg-black grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-10 py-8">
+      <section id="skills-section" className="dark:bg-black text-white grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-10 py-8">
         {/* Left side: IconCloud */}
         <IconCloudDemo />
 
         {/* Right side: Progress Bars */}
-        <div className="flex items-center justify-center rounded-lg p-6 md:p-10">
+        <div className="text-white flex items-center justify-center rounded-lg p-6 md:p-10">
           <Proggress />
         </div>
       </section>
@@ -48,7 +50,7 @@ export default function Home() {
       </section>
 
 
-      <section id="education-section">
+      <section id="education-section" className="bg-black sm:bg-black md:bg-black lg:bg-black text-white">
         <TimelineDemo />
       </section>
 
