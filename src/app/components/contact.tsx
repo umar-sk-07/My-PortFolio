@@ -38,7 +38,7 @@ const Contact: React.FC = () => {
     <section id="contact" className="pt-10 pb-10 dark:bg-black">
       <div className="container mx-auto">
       <div className="flex justify-center mt-10 mb-10">
-        <h2 className="text-lg md:text-4xl mb-4 pb-3 pl-3 text-black dark:text-white max-w-4xl rounded-lg border-4 md:border-8 border-indigo-500/100 text-center bg-indigo-500 font-bold">
+        <h2 className="text-lg md:text-4xl mb-4 pb-3 pl-3 text-white dark:text-white max-w-4xl rounded-lg border-4 md:border-8 border-indigo-500/100 text-center bg-indigo-500 font-bold">
           Contact Me
         </h2>
       </div>

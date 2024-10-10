@@ -32,7 +32,7 @@ export function CardDemo() {
   return (
     <div id="projects">
       <div className="flex justify-center">
-        <h2 className="text-lg md:text-4xl mb-4 pb-3 pl-3 text-black dark:text-white max-w-4xl rounded-lg border-8 border-indigo-500/100 text-center bg-indigo-500 font-bold">
+        <h2 className="text-lg md:text-4xl mb-4 pb-3 pl-3 text-white dark:text-white max-w-4xl rounded-lg border-8 border-indigo-500/100 text-center bg-indigo-500 font-bold">
           PROJECTS
         </h2>
       </div>
@@ -42,7 +42,7 @@ export function CardDemo() {
           className="grid grid-cols-1 md:grid-cols-3 gap-24"
         />
       </div>
-      <div className="d-grid gap-2 d-md-flex flex justify-center">
+      <div className="d-grid gap-2 d-md-flex flex justify-center text-white dark:text-white">
         <Button
           as="a"
           href="https://github.com/umar-sk-07?tab=repositories"

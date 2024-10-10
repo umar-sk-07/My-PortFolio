@@ -11,10 +11,10 @@ export function TimelineDemo() {
           <p className="text-blue-400 text-xs md:text-sm font-normal mb-2">
             BTech in Computer Engineering
           </p>
-          <p>
+          <p className="text-black dark:text-white">
             Vishwakarma University, Pune
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-black dark:text-white text-xs md:text-sm font-normal mb-8">
             CGPA: 7.54
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -36,10 +36,10 @@ export function TimelineDemo() {
           <p className="text-blue-400 text-xs md:text-sm font-normal mb-2">
             Diploma in Computer Engineering.
           </p>
-          <p>
+          <p className="text-black dark:text-white">
             Cusrow Wadia Institute of Technology, Pune 
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-black dark:text-white text-xs md:text-sm font-normal mb-8">
             Percentage: 81.80%
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -61,10 +61,10 @@ export function TimelineDemo() {
           <p className="text-blue-400 text-xs md:text-sm font-normal mb-2">
             High School ( SSC )
           </p>
-          <p>
+          <p className="text-black dark:text-white">
             J.N.Petit Technical High School, Pune
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-black dark:text-white text-xs md:text-sm font-normal mb-8">
             Percentage: 76.80%
           </p>
           <div className="grid grid-cols-2 gap-4">
