@@ -52,7 +52,7 @@ export function FloatingNavDemo() {
 }
 const DummyContent = () => {
   return (
-    <div className="bg-black sm:bg-black md:bg-black lg:bg-black text-white">
+    <div>
     </div>
   );
 };
