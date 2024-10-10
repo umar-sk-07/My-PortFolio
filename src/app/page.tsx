@@ -10,7 +10,7 @@ import Contact from "./components/contact";
 
 export default function Home() {
   return (
-    <div className="bg-black sm:bg-black md:bg-black lg:bg-black">
+    <div className="bg-black sm:bg-black md:bg-black lg:bg-black text-white">
       {/* Floating Navbar */}
       <div>
         <FloatingNavDemo />
