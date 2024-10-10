@@ -47,6 +47,7 @@ export default function Home() {
         <CardDemo />
       </section>
 
+
       <section id="education-section">
         <TimelineDemo />
       </section>
