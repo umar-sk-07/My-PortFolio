@@ -7,10 +7,11 @@ import Hero from "./components/hero";
 import { CardDemo } from "./components/projects";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
+import { FocusCardsDemo } from "./components/focus-cards";
 
 export default function Home() {
   return (
-    <div className=" text-black dark:bg-black">
+    <div className="text-black dark:bg-black">
       {/* Floating Navbar */}
       <div>
         <FloatingNavDemo />
@@ -20,7 +21,7 @@ export default function Home() {
       <BackgroundBeamsWithCollisionDemo />
 
       {/* Hero Section */}
-      <section id="about-section">
+      <section id="about-section" className="min-h-screen">
         <Hero />
       </section>
 
@@ -31,28 +32,34 @@ export default function Home() {
         </h2>
       </div>
 
-      {/* Grid layout for IconCloud and Progress bars */}
-      <section id="skills-section" className="dark:bg-black grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-10 py-8">
-        {/* Left side: IconCloud */}
+      {/* Skills Section */}
+      <section
+        id="skills-section"
+        className="dark:bg-black min-h-screen grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-10 py-8"
+      >
         <IconCloudDemo />
-
-        {/* Right side: Progress Bars */}
         <div className="flex items-center justify-center rounded-lg p-6 md:p-10">
           <Proggress />
         </div>
       </section>
 
-      {/* Projects and Timeline */}
-      <section id="projects-section">
+      {/* Projects Section */}
+      <section id="projects-section" className="min-h-screen">
         <CardDemo />
       </section>
 
+      {/* Certificates Section */}
+      <section id="certificates-section" className="min-h-screen">
+        <FocusCardsDemo />
+      </section>
 
-      <section id="education-section">
+      {/* Education Section */}
+      <section id="education-section" className="min-h-screen">
         <TimelineDemo />
       </section>
 
-      <section id="contact-section">
+      {/* Contact Section */}
+      <section id="contact-section" className="min-h-screen">
         <Contact />
       </section>
 

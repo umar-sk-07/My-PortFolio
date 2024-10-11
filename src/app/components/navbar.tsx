@@ -30,6 +30,12 @@ export function FloatingNavDemo() {
       icon: <IconFolder  className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
+      name: "My Certificates",
+      link: "#certificates",
+      onClick: () => scrollToSection("projects-section"),
+      icon: <IconFolder  className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
       name: "My Education",
       link: "#education",
       onClick: () => scrollToSection("education-section"),
