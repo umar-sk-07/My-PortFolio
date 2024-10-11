@@ -11,14 +11,14 @@ export function CardDemo() {
       title: <span className="text-violet-600">Travel Planner Website Using Web Scraping and Gemini AI Integration</span>,
       description:
         "Web scraping and use Bright Data's scraping browser to scrape live data for our travel planner app built using Next.js 14, Next UI, TailwindCSS, Zustand, Typescript, Redis, BullMQ, Puppeteer, Stripe, Prisma, PostgreSQL. Artificial Intelligence integration using Gemini AI API",
-      link: "https://github.com/umar-sk-07?tab=repositories",
+      link: "https://github.com/umar-sk-07/Travel-Planner-Using-Web-Scraping",
     },
     {
       image: "/images/cloud.jpeg", // Image path
       title: <span className="text-violet-600">LapTop Price Prediction Using Machine Learning</span>,
       description:
         "This project aims to predict laptop prices using machine learning techniques, addressing a significant challenge in the consumer electronics market.",
-      link: "https://github.com/umar-sk-07?tab=repositories",
+      link: "https://github.com/umar-sk-07/LapTop-Price_Prediction-ML",
     },
     {
       image: "/images/software.jpeg", // Image path
