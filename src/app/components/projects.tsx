@@ -15,10 +15,10 @@ export function CardDemo() {
     },
     {
       image: "/images/cloud.jpeg", // Image path
-      title: <span className="text-violet-600">LapTop Price Prediction Using Machine Learning</span>,
+      title: <span className="text-violet-600">Crowdsourcing-Task-Management-with-Machine-Learning.</span>,
       description:
-        "This project aims to predict laptop prices using machine learning techniques, addressing a significant challenge in the consumer electronics market.",
-      link: "https://github.com/umar-sk-07/LapTop-Price_Prediction-ML",
+        "Machine learning-based crowdsourcing task management. Includes Decision Tree Classifier for task allocation, Linear Regression for performance analysis, and Logistic Regression for quality control. Features a simple Flask web interface for model interaction.",
+      link: "https://github.com/umar-sk-07/Crowdsourcing-Task-Management-with-Machine-Learning",
     },
     {
       image: "/images/software.jpeg", // Image path
