@@ -1,5 +1,4 @@
 import { IconCloud } from "./ui/floating-icons";
-
 const slugs = [
   "typescript",
   "javascript",
@@ -34,10 +33,13 @@ const slugs = [
 ];
 
 export function IconCloudDemo() {
+  const images = slugs.map(
+    (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`,
+  );
+
   return (
-    <div className="relative flex size-full max-w-full md:max-w-lg items-center justify-center overflow-hidden rounded-lg bg-background px-10 pb-10 pt-4 md:px-20 md:pb-20 md:pt-8 dark:bg-black">
-      <IconCloud iconSlugs={slugs} />
+    <div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden bg-background">
+      <IconCloud images={images} />
     </div>
   );
 }
-
